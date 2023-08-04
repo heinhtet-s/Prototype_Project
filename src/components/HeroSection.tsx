@@ -5,6 +5,7 @@ import EcommerceIcon from "../assets/images/shopping-cart.svg";
 import IndustryIcon from "../assets/images/responsive.svg";
 import LaptopImage from "../assets/images/Laptop.png";
 import LaptopBgImage from "../assets/images/HeroLaptopImage.png";
+import BackgroundImage from "../assets/images/HeroImage.png";
 import { motion } from "framer-motion";
 const HeroSection: React.FC = () => {
   return (
@@ -64,7 +65,7 @@ const HeroSection: React.FC = () => {
 
 const HeroSectionContainer = styled.div`
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../src/assets/images/HeroImage.png") center/cover no-repeat;
+    url(${BackgroundImage}) center/cover no-repeat;
   height: 637px;
   width: 100%;
   color: #fff;
