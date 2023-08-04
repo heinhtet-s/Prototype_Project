@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { styled } from "styled-components";
 import smartphone from "../assets/images/smartphone.svg";
-import ArrowRight from "../assets/images/Arrow.svg";
+import ArrowRight from "../assets/images/arrow.svg";
 import { MdArrowBackIosNew } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
 import WPSlideImage from "../assets/images/WPSlideImage.png";
