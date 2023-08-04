@@ -1,4 +1,3 @@
-import React from "react";
 import FooterImage from "../assets/images/Footer.jpeg";
 import { styled } from "styled-components";
 import PayPal from "../assets/images/PayPal.png";
