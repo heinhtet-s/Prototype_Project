@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --gradient-color: transparent
+    linear-gradient(270deg, #3ae7ab 0%, #2dc4ea 100%) 0% 0% no-repeat
+    padding-box;
+  --secondary-color: #2dc4ea;
+  --header-info-color: #eee;
+  --black-color: #000;
+  --white-color: #fff;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
